@@ -5,9 +5,9 @@ vscode:
     - betterthantomorrow.calva
 
 tasks:
-  - name: Prepare deps
-    init: sudo apt-get install clojure && y
-    command: clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}' -P
+   - name: setup
+     before: sudo apt-get install clojure
+     init: clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}' -P
  
 github:
   prebuilds:
