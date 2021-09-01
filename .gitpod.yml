@@ -1,15 +1,13 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 
-image:
-  file: .gitpod.dockerfile
-
 vscode:
   extensions:
     - betterthantomorrow.calva
 
 tasks:
   - name: Prepare deps
-    init: clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}' -P
+    init: sudo apt-get install clojure && y
+    command: clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}' -P
  
 github:
   prebuilds:
