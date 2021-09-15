@@ -73,3 +73,5 @@
   4. Si no he llegado a cero, y no quedan más elementos que agregar como enteros, se procede a agregar la fracción del elemento más valioso restante.
   )
 
+(maxval test_input)
+(maxval 150 44 23 8448 487 7 48 787 8 48 7 87 7)

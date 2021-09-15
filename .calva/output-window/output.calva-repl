@@ -19,45 +19,26 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
 nil
-clj꞉GreedyAlgorithms.maxlootvalue꞉> (defn rail-example [n] (if (string? n) (str "Hello " n) 0))
-#'GreedyAlgorithms.maxlootvalue/rail-example
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-(rail-example 990)
-0
-clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-(rail-example "Martin")
-"Hello Martin"
-clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-(rail-example nil)
-                                    
-0
-clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-#'GreedyAlgorithms.maxlootvalue/order-by-value
+#'GreedyAlgorithms.maxlootvalue/fractions
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
 #'GreedyAlgorithms.maxlootvalue/get-fractions
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-#'GreedyAlgorithms.maxlootvalue/fractions
+#'GreedyAlgorithms.maxlootvalue/order-by-value
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
 #'GreedyAlgorithms.maxlootvalue/maxval
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
 #'GreedyAlgorithms.maxlootvalue/test_input
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
+#'GreedyAlgorithms.maxlootvalue/test_particion
+clj꞉GreedyAlgorithms.maxlootvalue꞉> 
+#'GreedyAlgorithms.maxlootvalue/ordered_test_vals
+clj꞉GreedyAlgorithms.maxlootvalue꞉> 
 #'GreedyAlgorithms.maxlootvalue/test_capacity
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
 #'GreedyAlgorithms.maxlootvalue/cpct
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-(maxval test_input)
 0
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-(maxval 200 190 10 230 20 40 12 2000 1 890 10)
-3350
+2602.0533880903486
 clj꞉GreedyAlgorithms.maxlootvalue꞉> 
-nil
-clj꞉GreedyAlgorithms.maxlootvalue-test꞉> 
-nil
-clj꞉GreedyAlgorithms.maxlootvalue-test꞉> 
-; Syntax error reading source at (maxlootvalue.clj:65:12).
-; Invalid token: Problema:
-clj꞉GreedyAlgorithms.maxlootvalue-test꞉> 
-nil
-clj꞉GreedyAlgorithms.maxlootvalue-test꞉> 
